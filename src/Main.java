@@ -11,7 +11,7 @@ public class Main {
         try {
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(5);
         List<Alumne> alumneList = new ArrayList<>();
-
+        //hola
         for (int i = 0; i < 20; i++){
             Alumne crear = new Alumne((String) "alumno"+(i+1));
             alumneList.add(crear);

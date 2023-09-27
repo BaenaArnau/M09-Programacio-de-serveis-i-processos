@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutionException;
 
 public class Alumne implements Callable<Integer> {
     private String nombre;
-
+    //hola
 
     public Integer call() throws InterruptedException, ExecutionException{
         List<Alumne> alumneList = new ArrayList<>();
